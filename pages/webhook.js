@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
     // Verificación de Webhook (Meta lo solicita con GET)
     if (req.method === 'GET') {
-      const VERIFY_TOKEN = 'mi_token_de_verificacion';
+      const VERIFY_TOKEN = 'omar123bot';
   
       const mode = req.query['hub.mode'];
       const token = req.query['hub.verify_token'];
